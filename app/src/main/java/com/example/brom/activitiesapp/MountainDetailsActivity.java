@@ -22,8 +22,8 @@ public class MountainDetailsActivity extends AppCompatActivity {
         //Toolbar toolbar = findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mCardImage = (ImageView) findViewById(R.id.cardImage);
-        mCardTitle = (TextView) findViewById(R.id.cardTitle);
+        mCardImage = findViewById(R.id.cardImage);
+        mCardTitle = findViewById(R.id.cardTitle);
 
         int imageResource = getResources().getIdentifier("@drawable/mountain_top", null, this.getPackageName());
         mCardImage.setImageResource(imageResource);

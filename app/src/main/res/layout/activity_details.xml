@@ -10,7 +10,7 @@
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
     tools:context="com.example.brom.activitiesapp.MountainDetailsActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
         <android.support.v7.widget.CardView
             android:id="@+id/card1"
@@ -23,10 +23,7 @@
             app:contentPaddingBottom="10dp"
             app:contentPaddingTop="10dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+
             <ImageView
                 android:id="@+id/cardImage"
                 android:layout_width="match_parent"
@@ -37,10 +34,10 @@
                 android:id="@+id/cardTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_name"
+                android:layout_gravity="bottom"
                 android:textAlignment="center"
                 android:textColor="@color/colorCardTitle" />
-            </LinearLayout>
+
         </android.support.v7.widget.CardView>
 
 </LinearLayout>
