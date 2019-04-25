@@ -5,10 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="10dp"
-    android:paddingBottom="10dp"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
     tools:context="com.example.brom.activitiesapp.MountainDetailsActivity"
     android:orientation="vertical">
 
@@ -17,9 +17,9 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             app:cardCornerRadius="5dp"
-            app:cardElevation="6dp"
-            app:contentPaddingLeft="10dp"
-            app:contentPaddingRight="10dp"
+            app:cardElevation="8dp"
+            app:contentPaddingLeft="20dp"
+            app:contentPaddingRight="20dp"
             app:contentPaddingBottom="10dp"
             app:contentPaddingTop="10dp">
 
@@ -27,7 +27,7 @@
             <ImageView
                 android:id="@+id/cardImage"
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
+                android:layout_height="160dp"
                 android:contentDescription="@string/button_name" />
 
             <TextView
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:textAlignment="center"
+                android:fontFamily="Work Sans"
                 android:textColor="@color/colorCardTitle" />
 
         </android.support.v7.widget.CardView>
