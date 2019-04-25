@@ -15,7 +15,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     // Create ArrayLists from the raw data above and use these lists when populating your ListView.
     private ArrayList<Mountain> mountainArrayList=new ArrayList<>();
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
 
 

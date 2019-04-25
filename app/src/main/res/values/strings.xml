@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ActivitiesApp</string>
-    <string name="title_activity_details">details</string>
+    <string name="title_activity_details">Mountain Details</string>
     <string name="button_name">Mountain Details</string>
 </resources>
